@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning Subjects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Explore Different Subjects</h1>
+  <p>Click a subject to see its topics. Click a topic to learn more!</p>
+
+  <div class="subjects">
+    <!-- Mathematics -->
+    <div class="subject" onclick="showTopics('math-topics')">Mathematics</div>
+    <ul id="math-topics" class="topics">
+      <li><a href="math/algebra.html">Algebra</a></li>
+      <li><a href="math/geometry.html">Geometry</a></li>
+      <li><a href="math/calculus.html">Calculus</a></li>
+      <li><a href="math/statistics.html">Statistics</a></li>
+    </ul>
+
+    <!-- Science -->
+    <div class="subject" onclick="showTopics('science-topics')">Science</div>
+    <ul id="science-topics" class="topics">
+      <li><a href="science/physics.html">Physics</a></li>
+      <li><a href="science/chemistry.html">Chemistry</a></li>
+      <li><a href="science/biology.html">Biology</a></li>
+      <li><a href="science/astronomy.html">Astronomy</a></li>
+    </ul>
+
+    <!-- Technology -->
+    <div class="subject" onclick="showTopics('tech-topics')">Technology</div>
+    <ul id="tech-topics" class="topics">
+      <li><a href="tech/computers.html">Computers</a></li>
+      <li><a href="tech/internet.html">Internet</a></li>
+      <li><a href="tech/robotics.html">Robotics</a></li>
+      <li><a href="tech/ai.html">Artificial Intelligence</a></li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

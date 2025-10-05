@@ -1,0 +1,53 @@
+/* Basic page styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header */
+h1 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+/* Subject boxes */
+.subject {
+  background-color: #4CAF50;
+  color: white;
+  width: 80%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.subject:hover {
+  background-color: #45a049;
+}
+
+/* Topics list */
+.topics {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.topics li {
+  margin: 8px 0;
+}
+
+.topics a {
+  text-decoration: none;
+  color: #333;
+}
+
+.topics a:hover {
+  color: #4CAF50;
+}
