@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Basic page setup:character set, title, and link to stylesheet -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +14,7 @@
   <p>Click a subject to see its topics. Click a topic to learn more!</p>
 
   <div class="subjects">
-    <!-- Mathematics -->
+    <!-- sets the math section, on the users click it displays the topics of each page -->
     <div class="subject" onclick="showTopics('math-topics')">Mathematics</div>
     <ul id="math-topics" class="topics">
       <li><a href="math/algebra.html">Algebra</a></li>
@@ -21,7 +23,7 @@
       <li><a href="math/statistics.html">Statistics</a></li>
     </ul>
 
-    <!-- Science -->
+     <!-- sets the science section, on the users click it displays the topics of each page -->
     <div class="subject" onclick="showTopics('science-topics')">Science</div>
     <ul id="science-topics" class="topics">
       <li><a href="science/physics.html">Physics</a></li>
@@ -30,7 +32,7 @@
       <li><a href="science/astronomy.html">Astronomy</a></li>
     </ul>
 
-    <!-- Technology -->
+    <!-- sets the technology section, on the users click it displays the topics of each page -->
     <div class="subject" onclick="showTopics('tech-topics')">Technology</div>
     <ul id="tech-topics" class="topics">
       <li><a href="tech/computers.html">Computers</a></li>
@@ -39,7 +41,7 @@
       <li><a href="tech/ai.html">Artificial Intelligence</a></li>
     </ul>
   </div>
-
+<!-- Link to JavaScript file that handles menu interactions -->
   <script src="script.js"></script>
 </body>
 </html>
