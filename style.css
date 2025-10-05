@@ -1,4 +1,4 @@
-/* Basic page styling */
+/* Basic page styling, font, background, and spacing */
 body {
   font-family: Arial, sans-serif;
   text-align: center;
@@ -7,7 +7,7 @@ body {
   padding: 20px;
 }
 
-/* Header */
+/* sets our dark color for header and lighter for paragraphs in the page */
 h1 {
   color: #333;
 }
@@ -16,7 +16,7 @@ p {
   color: #555;
 }
 
-/* Subject boxes */
+/* Styles the clickable looking subjects */
 .subject {
   background-color: #4CAF50;
   color: white;
