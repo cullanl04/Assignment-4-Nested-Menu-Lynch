@@ -1,4 +1,4 @@
-// This function shows or hides topic lists
+// This function shows or hides topic lists when you click on another one
 function showTopics(id) {
   // Hide all topic lists first
   var allLists = document.getElementsByClassName("topics");
